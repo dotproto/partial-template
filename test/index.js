@@ -1,0 +1,1 @@
+require('./partial-template.spec.js')

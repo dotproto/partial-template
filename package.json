@@ -1,0 +1,17 @@
+{
+  "name": "partial-template",
+  "version": "0.1.0",
+  "main": "lib/partial-tempate.js",
+  "scripts": {
+    "test": "tap ./test",
+    "test-watch": "nodemon tap ./test"
+  },
+  "author": "Simeon Vincent <svincent@gmail.com>",
+  "license": "MIT",
+  "description": "Allows template literal value resolution to occur after template declaration.",
+  "keywords": ["template literal", "template string", "template"],
+  "devDependencies": {
+    "nodemon": "^1.17.2",
+    "tap": "^11.1.3"
+  }
+}

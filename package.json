@@ -1,17 +1,29 @@
 {
   "name": "partial-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Allows template literal value resolution to occur after template declaration.",
   "main": "lib/partial-tempate.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "scripts": {
     "test": "tap ./test",
     "test-watch": "nodemon tap ./test"
   },
   "author": "Simeon Vincent <svincent@gmail.com>",
   "license": "MIT",
-  "description": "Allows template literal value resolution to occur after template declaration.",
   "keywords": ["template literal", "template string", "template"],
   "devDependencies": {
     "nodemon": "^1.17.2",
     "tap": "^11.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotproto/partial-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dotproto/partial-template/issues"
+  },
+  "homepage": "https://github.com/dotproto/partial-template#readme"
 }
